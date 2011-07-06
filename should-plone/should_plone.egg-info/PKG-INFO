@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: should-plone
+Version: 0.1dev
+Summary: Should DSL matchers for Plone
+Home-page: UNKNOWN
+Author: Rogerio Atem de Carvalho
+Author-email: ratembd@gmail.com
+License: UNKNOWN
+Description: Should DSL matchers for Plone CMS
+Platform: UNKNOWN

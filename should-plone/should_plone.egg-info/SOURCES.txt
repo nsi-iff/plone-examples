@@ -1,0 +1,12 @@
+setup.cfg
+setup.py
+should_plone.egg-info/PKG-INFO
+should_plone.egg-info/SOURCES.txt
+should_plone.egg-info/dependency_links.txt
+should_plone.egg-info/entry_points.txt
+should_plone.egg-info/not-zip-safe
+should_plone.egg-info/requires.txt
+should_plone.egg-info/top_level.txt
+shouldplone/__init__.py
+shouldplone/have_property.py
+shouldplone/include_object.py

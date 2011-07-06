@@ -1,0 +1,22 @@
+    Initially do some Splinter-Plone stuff...
+
+    Create user manager and login
+    >>> self.portal_adduser_as_manager('manager','manager')
+    >>> self.portal_login('manager','manager')
+    >>> self.portal_logout()
+
+    Visit any page in portal, for example News page
+    >>> self.portal_visit('news')
+    >>> self.browser.is_text_present('Site News')
+    True
+
+    Now it is time to show Should-Plone working
+    >>> from should_dsl import should
+    >>> from shouldplone import include_object, have_property
+
+    Checks for object presence
+    >>> self.portal |should| include_object('news')
+
+    Checks for property value
+    >>> self.portal |should| have_property('title', with_value="Plone site")
+
