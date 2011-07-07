@@ -1,8 +1,10 @@
 should-plone
 ============
-Complete product for integration tests using Splinter-Plone - thus using a real
-Plone instance.
+Plonefied version of should-plone.
+Integration tests also using Splinter-Plone.
 
-For using it you need to install shouldplone product in your Plone instance, as
-well as splinterplone.
+For using it you need to install should-plone and splinter-plone in your Plone
+instance.
+
+From ~/Plone/zinstance execute ./bin/test -s shouldplone
 

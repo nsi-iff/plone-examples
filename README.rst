@@ -1,4 +1,5 @@
-Assorted examples on developing in Plone using NSI tools.
-Currently should-plone is only a plonification of the original should-plone
-project, without changes in its code.
+This project aims at keeping in a single place examples on developing in Plone
+using NSI tools.
+Currently, it only holds a "plonefied" version of should-plone, and a doctest
+which also uses splinter-plone.
 
